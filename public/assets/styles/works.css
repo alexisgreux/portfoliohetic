@@ -1,0 +1,250 @@
+/***
+
+        ILLUSTRATIONS SLIDER
+
+                                    ***/
+
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.title_works
+{
+    position: absolute;
+    font-size: 2.2em;
+    font-weight: 600;
+    padding-top: 80px;
+    padding-left: 160px;
+    color: #F39523;
+}
+
+.title_works a
+{
+    text-decoration: none;
+}
+
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+.container .slides
+{
+    width: 150vw;
+    height: 715px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 10vw;
+    margin-top: 100px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.container .slides .slide
+{
+    flex: 0 0 auto;
+    padding: 0 70px;
+    position: relative;
+}
+
+.container .slides .slide .shadow_illustration, .container .slides .slide .shadow_interface
+{
+    position: absolute;
+    bottom: 0;
+    width: 391px;
+    height: 715px;
+    opacity: 1;
+    background: linear-gradient(to top, rgba(0,0,0,0.86) 0%, rgba(0,0,0,0.86) 6%, rgba(0,0,0,0.5) 35%, rgba(0,0,0,0) 100%);
+    transition: opacity ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.container .slides .slide .shadow_illustration:hover, .container .slides .slide .shadow_interface:hover
+{
+    opacity: 0;
+}
+
+.container .slides .slide:last-child
+{
+    padding-right: 300px;
+}
+
+/***
+
+        ILLUSTRATIONS MORE
+        
+                                    ***/
+
+.more
+{
+    width: 100vw;
+    height: 0vh;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+/***
+
+        UNIQUE PAGE
+                        ***/
+
+.illustration
+{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration .img
+{
+    width: 60vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* .illustration .img img
+{
+    width: 750px;
+} */
+
+.illustration .img h2
+{
+    position: absolute;
+    top: 8vh;
+    right: -0.5vw;
+    font-size: 3.6em;
+    font-weight: 1000;
+    color: white;
+}
+
+.big
+{
+    width:80%;
+    height:110%;
+}
+
+.big2
+{
+    width:70%;
+    height:110%;
+}
+
+.bigbig
+{
+    width:60%;
+    height:110%;
+}
+
+.colors
+{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 100vh;
+}
+
+.colors .color1, .colors .color2, .colors .color3
+{
+    width: 240px;
+    height: 320px;
+}
+
+.colors .color2
+{
+    margin-top: 60px;
+}
+
+.hexa
+{
+    color:white;
+    writing-mode: vertical-rl;
+    position: absolute;
+    top:15vh;
+    left:18vw;
+    font-size: 2em;
+    font-weight: 600;
+}
+.hexa2
+{
+    color:white;
+    writing-mode: vertical-rl;
+    position: absolute;
+    top:20vh;
+    left:47vw;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.hexa3
+{
+    color:white;
+    writing-mode: vertical-rl;
+    position: absolute;
+    top:15vh;
+    left:75vw;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+
+.sombre1
+{
+    position:absolute;
+    margin-left:-65vw;
+    margin-top:-5vh;
+    background:linear-gradient(to top, rgba(0,0,0,0.86) 0%, rgba(0,0,0,0.86) 6%, rgba(0,0,0,0.5) 35%, rgba(0,0,0,0) 100%)
+}
+
+.sombre2
+{
+    position:absolute;
+    margin-left:65vw;
+    margin-top:-5vh;
+    background:linear-gradient(to top, rgba(0,0,0,0.86) 0%, rgba(0,0,0,0.86) 6%, rgba(0,0,0,0.5) 35%, rgba(0,0,0,0) 100%);
+}
+
+.tools
+{
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+.tools .tool
+{
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding-top: 160px;
+}
+
+.tools .tool img
+{
+    width: 100px;
+    margin: 30px 0;
+}
+
+.tools .tool h2
+{
+    font-size: 2.4em;
+    font-weight: 600;
+}
+
+.tools .tool h3
+{
+    font-size: 1.8em;
+}
+

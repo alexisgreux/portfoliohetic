@@ -13,11 +13,11 @@
         <div class="illustrations">
             <div class="title">
                 <span>Here are some <h3>Illustrations</h3></span>
-                <a href="illustrations">Discover</a>
+                <a href="<?= URL ?>illustrations">Discover</a>
             </div>
             <div class="bg_illu"></div>
             <div class="img_illu">
-                <img src="../public/assets/images/illu.png" alt="Illustration Alexis">
+                <img src="<?= URL ?>/assets/images/illu.png" alt="Illustration Alexis">
             </div>
         </div>
     </div>
@@ -25,11 +25,11 @@
         <div class="ui">
             <div class="title">
                 <span>Here are some <h3>UI/UX Design</h3></span>
-                <a href="interface">Discover</a>
+                <a href="<?= URL ?>interface">Discover</a>
             </div>
             <div class="bg_ui"></div>
             <div class="img_ui">
-                <img src="../public/assets/images/ui.png" alt="UI Design Alexis">
+                <img src="<?= URL ?>/assets/images/ui.png" alt="UI Design Alexis">
             </div>
         </div>
     </div>

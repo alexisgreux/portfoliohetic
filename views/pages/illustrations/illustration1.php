@@ -15,15 +15,15 @@
 <div class="illustration">
     <div class="img">
         <h2>Smoked Woman</h2>
-        <img src="<?= URL ?>assets/images/illustration1.png" alt="illustration1">
-        <img class="sombre1" src="<?= URL ?>assets/images/1sombre1.png" alt="illustration1">
-        <img class="sombre2" src="<?= URL ?>assets/images/1sombre1.png" alt="illustration2">
+        <img src="../../public/assets/images/illustration1.png" alt="illustration1">
+        <img class="sombre1" src="../../public/assets/images/1sombre1.png" alt="illustration1">
+        <img class="sombre2" src="../../public/assets/images/1sombre1.png" alt="illustration2">
     </div>
 </div>
 <div class="tools">
     <div class="tool">
         <h2>Logiciel</h2>
-        <img src="<?= URL ?>assets/images/illustrator.png" alt="Illustrator icon">
+        <img src="../../public/assets/images/illustrator.png" alt="Illustrator icon">
         <h3>Adobe Illustrator</h3>
     </div>
 </div>

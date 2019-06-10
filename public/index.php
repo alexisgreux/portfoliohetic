@@ -4,7 +4,7 @@
  * Configuration
  */
 
-define('URL', '/alexis-greux.fr/');
+define('URL', 'https://alexis-greux.fr/');
 
 /**
  * Routing

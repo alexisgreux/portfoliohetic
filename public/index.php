@@ -4,7 +4,7 @@
  * Configuration
  */
 
-define('URL', '/folio_alexis-master/public/');
+define('URL', '/www.alexis-greux.fr/public/');
 
 /**
  * Routing
